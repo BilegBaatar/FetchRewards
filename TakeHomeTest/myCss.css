@@ -1,0 +1,55 @@
+#myform-div{
+    width: 280px;
+    margin: 0 auto;
+    padding: 20px 50px 40px;
+
+}
+#myform-dive *{
+    box-sizing: border-box;
+}
+#myform-div input[type=select]{
+    float: left;
+}
+#myform-div input[type=text]{
+    display: block;
+    height: 32 px;
+    padding:6px 16px;
+    width: 100%;
+
+}
+#myform-div input[type=email]{
+    display: block;
+    height: 32 px;
+    padding:6px 16px;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+#myform-div input[type=password]{
+    display: block;
+    height: 32 px;
+    padding:6px 16px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+#myform-div button[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+}
+button:hover{
+    background-color: aqua;
+}
+button:focus{
+    background-color: green;
+}
+#occ{
+    
+    margin-bottom: 15px;
+}

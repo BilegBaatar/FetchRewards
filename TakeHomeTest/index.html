@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myCss.css">
+    <title>TestforBileg</title>
+</head>
+
+<body>
+    <div id = myform-div>
+        <form class="form" id="myForm" onsubmit="mySuccess()">
+            <div>
+                <label for="name"></label>
+                <input type="text" name="name" placeholder="Full Name" id="name" required>
+
+
+            </div>
+
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" placeholder= "Email" id="email" required>
+            </div>
+
+            <div>
+                <label for ="password"></label>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+
+            <div id=occ>
+                <label for="occupation" id="occupation"></label>
+                <select name="occupation" id="occupations" required>
+                    <option value="">--Select Occupation--</option>
+
+                </select>
+
+            </div>
+
+            <div id = state-div>
+                <label for="state" id="state"></label>
+                <select name="state" id="states" required>
+                    <option value="">--Select State--</option>
+
+
+                </select>
+
+            </div>
+
+
+            <button type="submit">Submit</button>
+
+
+
+
+
+
+        </form>
+
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
